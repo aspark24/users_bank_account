@@ -69,6 +69,5 @@ class User:
         return self
 
     def example_method(self):
-        # we can call the BankAccount instance's methods
         self.account.deposit(100)
-        print(self.account.balance)		# or access its attributes
+        print(self.account.balance)
